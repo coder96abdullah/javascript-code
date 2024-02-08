@@ -8,18 +8,18 @@ Ticket fare Calculator
     - Otherwise Regular ticket fare 800 tk
 */
 //solution
-//  let price= 800;
-//  let passengerType="student";
-//  let age=15;
-//  if(age < 10)
-//    price=0;
-// else if(age >= 60)
-//    price=(price*15)/100;
-// else if(passengerType=="student")
-//    price=(price*50)/100;
+ let price= 800;
+ let passengerType="student";
+ let age=15;
+ if(age < 10)
+   price=0;
+else if(age >= 60)
+   price=(price*15)/100;
+else if(passengerType=="student")
+   price=(price*50)/100;
 
 
-// console.log("ticket prize : "+price)
+console.log("ticket prize : "+price)
 
 
 
@@ -36,9 +36,9 @@ also, write it using ternary operator.
 
  */
  //solution
-// let num1=16;
-// let num2=14;
-// console.log(num1>num2 ? num1*2 : num1+num2 )
+let num1=16;
+let num2=14;
+console.log(num1>num2 ? num1*2 : num1+num2 )
 
 
 /***
@@ -55,11 +55,11 @@ use nested if-else-if-else
 */
 
 // solution
-//  let score=30;
-//  console.log(score>=80?"lunch":
-//                score>=60?"good luck":
-//                  score>=40?"massage unseen":"block friend"
-//              )
+ let score=30;
+ console.log(score>=80?"lunch":
+               score>=60?"good luck":
+                 score>=40?"massage unseen":"block friend"
+             )
 
 
 
@@ -79,13 +79,13 @@ Create a simple JavaScript program that takes a student's score as input and ret
 ***/
 
 // solution
-// let score=91;
-// console.log(score>100?"not valid score" :
-//              score>=90 && score<=100?"A":
-//                 score>=80?"B":
-//                    score>=70?"C":
-//                      score>=60?"D":"F"
-// )
+let score=91;
+console.log(score>100?"not valid score" :
+             score>=90 && score<=100?"A":
+                score>=80?"B":
+                   score>=70?"C":
+                     score>=60?"D":"F"
+)
 
 
 
@@ -106,16 +106,16 @@ Create a JavaScript program that calculates the Body Mass Index (BMI) and assign
 
 */
 // solution
-// let weight=600;
-// let height=50;
-// let bmi=weight/height*2;
-// console.log(bmi>29.9?"obese":
-//                bmi>=25?"overweight":
-//                  bmi>=18.5?"normal":"underweight"
+let weight=600;
+let height=50;
+let bmi=weight/height*2;
+console.log(bmi>29.9?"obese":
+               bmi>=25?"overweight":
+                 bmi>=18.5?"normal":"underweight"
                    
 
-// )
-// console.log("BMI : "+bmi)
+)
+console.log("BMI : "+bmi)
 
 
 /***
@@ -126,5 +126,5 @@ Free Drinks
 */
 
 // solution
-// let buy= 510;
-// console.log(buy>500?"free coke": "coke : 30tk")
+let buy= 510;
+console.log(buy>500?"free coke": "coke : 30tk")
